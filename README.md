@@ -18,7 +18,6 @@ A robust and scalable RESTful API service for managing users, built with modern 
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 
 ---
 
@@ -26,7 +25,7 @@ A robust and scalable RESTful API service for managing users, built with modern 
 
 User Management Service is a production-ready backend application that provides comprehensive user management capabilities. The service follows RESTful API design principles and implements enterprise-grade features including pagination, filtering, database migration, and containerization.
 
-**Live Demo:** [Deployed API URL](#) *(Coming soon)*
+**Live Demo:** [https://user-management-service-11xz.onrender.com](https://user-management-service-11xz.onrender.com/api/v1/users/health)
 
 ---
 
@@ -216,8 +215,9 @@ docker run -p 8080:8080 \
 
 ### Base URL
 
+
 - **Local:** `http://localhost:8080/api/v1`
-- **Production:** `[Deployed URL]/api/v1`
+- **Production:** `https://user-management-service-11xz.onrender.com/api/v1`
 
 ---
 
@@ -542,7 +542,20 @@ The application is ready to deploy on:
 2. Set environment variables
 3. Deploy!
 
-> 📖 Detailed deployment guide coming soon
+### Live Application
+
+✅ **Deployed on Render:** [https://user-management-service-11xz.onrender.com](https://user-management-service-11xz.onrender.com/api/v1/users/health)
+
+⚠️ **Note:** Free tier may take 50 seconds to wake up from sleep on first request.
+
+### Test the API
+```bash
+# Health check
+curl https://user-management-service-11xz.onrender.com/api/v1/users/health
+
+# Get all users
+curl https://user-management-service-11xz.onrender.com/api/v1/users
+```
 
 ---
 
