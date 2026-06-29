@@ -21,7 +21,7 @@ A robust and scalable RESTful API service for managing users, built with modern 
 
 ---
 
-## 🎯 Overview
+## Overview
 
 User Management Service is a production-ready backend application that provides comprehensive user management capabilities. The service follows RESTful API design principles and implements enterprise-grade features including pagination, filtering, database migration, and containerization.
 
@@ -29,26 +29,26 @@ User Management Service is a production-ready backend application that provides 
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- ✅ **CRUD Operations** - Create, Read, Update, Delete users
-- ✅ **User Validation** - Email format, phone number validation
-- ✅ **Role Management** - Support for USER, ADMIN, MODERATOR roles
-- ✅ **Active Status** - Enable/disable user accounts
+-  **CRUD Operations** - Create, Read, Update, Delete users
+-  **User Validation** - Email format, phone number validation
+-  **Role Management** - Support for USER, ADMIN, MODERATOR roles
+-  **Active Status** - Enable/disable user accounts
 
 ### Advanced Features
-- 🔍 **Pagination & Sorting** - Efficient data retrieval with customizable page size and sorting
-- 🎯 **Advanced Filtering** - Filter by role, active status, or combination
-- 🗃️ **Database Migration** - Version-controlled schema management with Flyway
-- 🐳 **Dockerized** - Fully containerized application with Docker Compose
-- 📝 **Comprehensive Logging** - Structured logging for monitoring and debugging
-- ⚠️ **Error Handling** - Global exception handling with meaningful error responses
-- 🧪 **Unit Tests** - Service and controller layer test coverage
+-  **Pagination & Sorting** - Efficient data retrieval with customizable page size and sorting
+-  **Advanced Filtering** - Filter by role, active status, or combination
+-  **Database Migration** - Version-controlled schema management with Flyway
+-  **Dockerized** - Fully containerized application with Docker Compose
+-  **Comprehensive Logging** - Structured logging for monitoring and debugging
+-  **Error Handling** - Global exception handling with meaningful error responses
+-  **Unit Tests** - Service and controller layer test coverage
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Backend
 - **Java 21** - Latest LTS version with modern language features
@@ -97,7 +97,7 @@ The application follows a **layered architecture** pattern with clear separation
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -508,13 +508,13 @@ mvn verify
 
 ### Test Coverage
 
-- ✅ **Service Layer** - Full coverage of business logic
-- ✅ **Controller Layer** - API endpoint testing
-- ✅ **Repository Layer** - Covered by integration tests
+-  **Service Layer** - Full coverage of business logic
+-  **Controller Layer** - API endpoint testing
+-  **Repository Layer** - Covered by integration tests
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Environment Variables
 
@@ -544,9 +544,9 @@ The application is ready to deploy on:
 
 ### Live Application
 
-✅ **Deployed on Render:** [https://user-management-service-11xz.onrender.com](https://user-management-service-11xz.onrender.com/api/v1/users/health)
+**Deployed on Render:** [https://user-management-service-11xz.onrender.com](https://user-management-service-11xz.onrender.com/api/v1/users/health)
 
-⚠️ **Note:** Free tier may take 50 seconds to wake up from sleep on first request.
+**Note:** Free tier may take 50 seconds to wake up from sleep on first request.
 
 ### Test the API
 ```bash
