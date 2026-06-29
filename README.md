@@ -3,7 +3,7 @@
 A robust and scalable RESTful API service for managing users, built with modern Java technologies and best practices.
 
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -211,7 +211,7 @@ docker run -p 8080:8080 \
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 ### Base URL
 
@@ -492,7 +492,7 @@ All errors follow a consistent format:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run Unit Tests
 
@@ -559,7 +559,7 @@ curl https://user-management-service-11xz.onrender.com/api/v1/users
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 user-management/
